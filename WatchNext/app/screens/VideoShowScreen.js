@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Text, View, TouchableOpacity, AlertIOS} from 'react-native'
+import { AppRegistry, StyleSheet, Text, View, TouchableOpacity} from 'react-native'
 import ViewContainer from 'WatchNext/app/components/ViewContainer'
 import StatusBarBackground from 'WatchNext/app/components/StatusBarBackground'
 import _ from 'lodash'
