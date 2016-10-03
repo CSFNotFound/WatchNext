@@ -1,12 +1,9 @@
-/**
- * Created by David on 2016-09-27.
- */
-import React, { Component} from 'react';
-import {View, Text, StyleSheet} from 'react-native'
-import Tabs from 'react-native-tabs'
+import React, { Component } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import Tabs from 'react-native-tabs';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default class WatchNext extends Component {
+export default class TabBar extends Component {
     constructor(props) {
         super(props);
 
@@ -22,7 +19,7 @@ export default class WatchNext extends Component {
                 <Tabs
                     selected={page}
                     style={styles.tabbar}
-                    selectedStyle={{color:'dodgerblue'}} onSelect={el=>this.setState({page:el.props.name})}
+                    selectedStyle={{color: 'dodgerblue'}} onSelect={el=>this.setState({page: el.props.name})}
                 >
                     <Text name="Home"><Icon name="home" size={20}/></Text>
                     <Text name="Favorites"><Icon name="star-o" size={20}/></Text>
@@ -30,7 +27,7 @@ export default class WatchNext extends Component {
                     <Text name="Settings"><Icon name="cogs" size={20}/></Text>
                 </Tabs>
 
-                <Text>WatchNext App</Text>
+                <Text>CodeSharing App</Text>
                 <Text>{page}</Text>
             </View>
         )

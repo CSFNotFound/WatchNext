@@ -1,10 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { AppRegistry } from 'react-native';
-import WatchNext from './app/components';
+import TabBar from './app/components/TabBar';
 
-AppRegistry.registerComponent('WatchNext', () => WatchNext);
+AppRegistry.registerComponent('WatchNext', () => TabBar);
