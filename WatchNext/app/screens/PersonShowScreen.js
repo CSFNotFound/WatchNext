@@ -20,7 +20,7 @@ class PersonShowScreen extends Component {
         <StatusBarBackground />
 
         <TouchableOpacity onPress={() => this.props.navigator.pop() } style={{marginLeft: 20}}>
-          <Icon name="ios-arrow-back" size={30}/>
+          <Icon name="ios-arrow-back" size={40}/>
         </TouchableOpacity>
 
         <Text style={{marginTop:100, fontSize:20, marginLeft: 20}}>{'Person show screen'}</Text>

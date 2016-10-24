@@ -34,9 +34,16 @@ class PeopleIndexScreen extends Component {
 
         <Button
           containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: 'aliceblue'}}
-          style={{fontSize: 20, color: 'green'}}
+          style={{fontSize: 20, color: 'blue'}}
           onPress={() => this._navigateToVideo()}>
-          Press Me!
+          Video Button!
+        </Button>
+
+        <Button
+          containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: 'lavenderblush'}}
+          style={{fontSize: 20, color: 'blue'}}
+          onPress={() => this._navigateToSwipe()}>
+          Swipeee Button!
         </Button>
 
         <ListView
@@ -76,6 +83,13 @@ class PeopleIndexScreen extends Component {
   _navigateToVideo() {
     this.props.navigator.push({
       ident: "VideoShow",
+      sceneConfig:Navigator.SceneConfigs.FloatFromBottom
+    })
+  }
+
+  _navigateToSwipe() {
+    this.props.navigator.push({
+      ident: "SwipeShow",
       sceneConfig:Navigator.SceneConfigs.FloatFromBottom
     })
   }
