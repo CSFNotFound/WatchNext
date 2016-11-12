@@ -8,6 +8,8 @@ import VideoShowScreen from './app/screens/VideoShowScreen'
 import SwipeShowScreen from './app/screens/SwipeShowScreen'
 //import VideoShowScreen from './app/screens/TestVideoShowScreen'
 
+
+//global.storage = storage;
 class WatchNext extends Component {
 
   _renderScene( route, navigator) {
