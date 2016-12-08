@@ -26,13 +26,40 @@ Semaine du 9 octobre
 - Implémentation d'une navbar. (Dans le haut de l'écran)
 - Apprentissage des listview. (composant natif de react-native)
 
-Semaine 16 octobre
+Semaine du 16 octobre
 
 - Recherche sur l'utilisation des listview personnalisé (composant natif de react-native)
 - Implémenter la librairie react-native-swipeout et personnalisation pour nos besoins. --> https://github.com/dancormier/react-native-swipeout
 - Implémentation de la listview pour les films en favoris.
 
-Semaine 23 octobre
+Semaine du 23 octobre
 
 - Personnalisation de la liste des favoris.
 - Optimisation du lecteur video avec épuration de l'interface.
+
+Semaine du 30 octobre
+
+- Modification de la liste des favoris
+- Bug fixe dans le lecteur vidéo
+
+Semaine du 6 novembre
+
+- Ajustement au niveau de la BD SQLite
+- Modification de l'interface
+
+Semaine du 13 novembre
+
+- Implémentation de la page pour visionner les détails d'un film de notre liste
+
+Semaine du 20 novembre
+
+- Ajout d'un module permettant de gérer l'orientation du téléphone :
+  https://github.com/yamill/react-native-orientation
+  
+Semaine du 27 novembre
+
+- Écriture du doccument des outils d'expérimentation.
+
+Semaine du 4 decembre
+
+- Écriture du document de la publication finale.
