@@ -1,5 +1,7 @@
 # WatchNext
 
+LIEN VERS LA PUBLICATION : https://watchnextblog.wordpress.com/
+
 Semaine du 12 septembre.
 
 - Switch de Ionic à React Native pour certaines fonctionnalités essentielles.
